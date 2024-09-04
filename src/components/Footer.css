@@ -1,0 +1,53 @@
+.footer {
+    background-color: #f8f9fa;
+    padding: 2rem 0;
+    border-top: 1px solid #dee2e6;
+  }
+  
+  .footer h5 {
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .footer p {
+    margin-bottom: 0.5rem;
+  }
+  
+  .container {
+    max-width: 1140px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping of columns */
+    gap: 1rem; /* Add space between columns */
+  }
+  
+  .col-md-4, .col-md-2 {
+    flex: 1; /* Ensure columns take up equal space */
+    padding: 0 1rem; /* Add padding for spacing */
+    box-sizing: border-box; /* Include padding in width calculation */
+  }
+  
+  .col-md-4 {
+    flex: 2; /* "About Us" takes up more space */
+  }
+  
+  .social-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  
+  .social-link {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 1.125rem;
+  }
+  
+  .social-link:hover {
+    color: #0056b3;
+  }
+  
